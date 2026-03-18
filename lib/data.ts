@@ -136,15 +136,15 @@ export const genres = ["All", "Drama", "Comedy", "Mystery", "Adventure"] as cons
 export const types = ["All", "Feature Film", "Web Series", "Short Film", "Documentary"] as const;
 
 export const genreColors: Record<string, { bg: string; text: string }> = {
-  Drama: { bg: "bg-indigo-500/15", text: "text-indigo-400" },
-  Comedy: { bg: "bg-amber-500/15", text: "text-amber-400" },
-  Mystery: { bg: "bg-violet-500/15", text: "text-violet-400" },
-  Adventure: { bg: "bg-emerald-500/15", text: "text-emerald-400" },
+  Drama: { bg: "bg-indigo-500/20", text: "text-indigo-300" },
+  Comedy: { bg: "bg-amber-500/20", text: "text-amber-300" },
+  Mystery: { bg: "bg-violet-500/20", text: "text-violet-300" },
+  Adventure: { bg: "bg-emerald-500/20", text: "text-emerald-300" },
 };
 
 export const typeColors: Record<string, { bg: string; text: string }> = {
-  "Feature Film": { bg: "bg-sky-500/15", text: "text-sky-400" },
-  "Web Series": { bg: "bg-rose-500/15", text: "text-rose-400" },
-  "Short Film": { bg: "bg-teal-500/15", text: "text-teal-400" },
-  Documentary: { bg: "bg-orange-500/15", text: "text-orange-400" },
+  "Feature Film": { bg: "bg-sky-500/20", text: "text-sky-300" },
+  "Web Series": { bg: "bg-rose-500/20", text: "text-rose-300" },
+  "Short Film": { bg: "bg-teal-500/20", text: "text-teal-300" },
+  Documentary: { bg: "bg-orange-500/20", text: "text-orange-300" },
 };
