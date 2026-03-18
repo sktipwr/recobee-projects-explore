@@ -88,7 +88,7 @@ export default function ProjectCard({ project }: { project: Project }) {
               <div>
                 <span className="text-xs font-medium text-zinc-600 uppercase tracking-wider">Cast</span>
                 <p className="text-sm text-zinc-400 mt-0.5">
-                  {[...new Set(project.cast)].join(", ")}
+                  {Array.from(new Set(project.cast)).join(", ")}
                 </p>
               </div>
             )}
