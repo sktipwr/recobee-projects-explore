@@ -28,8 +28,20 @@ body {
   animation-delay: var(--delay, 0ms);
 }
 
+/* Card press feedback */
+a.group:active {
+  transform: translateY(0px) scale(0.985);
+  transition-duration: 100ms;
+}
+
 /* Selection */
 ::selection {
   background: rgba(251, 191, 36, 0.2);
   color: #fafafa;
+}
+
+/* Filter chip press feedback */
+button:active {
+  transform: scale(0.96);
+  transition-duration: 80ms;
 }
